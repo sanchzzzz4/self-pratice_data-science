@@ -1,0 +1,12 @@
+Program to take height and base of a right-angled triangle from the user and calculate its hypotenuse:
+
+import math
+# Take input for height and base of the triangle
+height = float(input("Enter the height of the triangle: "))
+base = float(input("Enter the base of the triangle: "))
+
+# Calculate the hypotenuse using the Pythagorean theorem
+hypotenuse = math.sqrt(height**2 + base**2)
+
+# Print the hypotenuse
+print("The hypotenuse of the triangle is:", hypotenuse)
