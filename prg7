@@ -1,0 +1,10 @@
+Program to take a number from the user and print its last digit:
+
+# Take input from the user
+number = int(input("Enter a number: "))
+
+# Find the last digit using modulus operator
+last_digit = number % 10
+
+# Print the last digit
+print("The last digit of the number is:", last_digit)
