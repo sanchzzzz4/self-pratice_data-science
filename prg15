@@ -1,0 +1,10 @@
+Program to take a number from user and print true if the number is a three digit number and also ends with 7 otherwise print False.
+
+# Take input for the number
+number = int(input("Enter a number: "))
+
+# Check if the number is a three-digit number and ends with 7
+is_valid = (100 <= number <= 999) and (number % 10 == 7)
+
+# Print the result
+print("Is the number a three-digit number that ends with 7:", is_valid)
