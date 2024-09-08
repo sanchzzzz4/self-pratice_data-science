@@ -1,0 +1,12 @@
+ Program to take the area of a circle from the user and calculate its radius:
+
+ import math
+
+# Take input for the area of the circle
+area = float(input("Enter the area of the circle: "))
+
+# Calculate the radius using the formula: radius = sqrt(area / pi)
+radius = math.sqrt(area / math.pi)
+
+# Print the radius
+print("The radius of the circle is:", radius)
