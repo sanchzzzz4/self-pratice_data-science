@@ -1,0 +1,19 @@
+Program to take three points D1(x1,y1) , D2(x2,y2)   D3(x3,y3)   , now print True if D2 is more closer to D1 as comparison to D3 otherwise False.
+
+
+import math
+
+# Take input for coordinates of D1, D2, and D3
+x1, y1 = float(input("Enter x1: ")), float(input("Enter y1: "))
+x2, y2 = float(input("Enter x2: ")), float(input("Enter y2: "))
+x3, y3 = float(input("Enter x3: ")), float(input("Enter y3: "))
+
+# Calculate distances
+distance_D1_D2 = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+distance_D1_D3 = math.sqrt((x3 - x1)**2 + (y3 - y1)**2)
+
+# Check if D2 is closer to D1 than D3
+is_closer = distance_D1_D2 < distance_D1_D3
+
+# Print the result
+print("Is D2 closer to D1 than D3:", is_closer)
