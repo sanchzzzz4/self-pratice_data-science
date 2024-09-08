@@ -1,0 +1,18 @@
+ Program to remove duplicate values from a list
+
+ # Initialize an empty list
+my_list = []
+
+# Take the number of elements from the user
+n = int(input("How many values do you want to enter? "))
+
+# Store values in the list
+for i in range(n):
+    value = input(f"Enter value {i+1}: ")
+    my_list.append(value)
+
+# Remove duplicate values by converting the list to a set and back to a list
+my_list = list(set(my_list))
+
+# Print the list after removing duplicates
+print("List after removing duplicates:", my_list)
