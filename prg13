@@ -1,0 +1,10 @@
+Program to take age of a passenger from user and print True if the person is a minor otherwise print False.
+
+# Take input for age
+age = int(input("Enter the age of the passenger: "))
+
+# Check if the person is a minor
+is_minor = age < 18
+
+# Print the result
+print("Is the passenger a minor:", is_minor)
