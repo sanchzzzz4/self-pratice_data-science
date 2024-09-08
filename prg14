@@ -1,0 +1,12 @@
+Program to take height base and hypotenuse from user and print True if it is a right angle triangle otherwise print False.
+
+# Take input for height, base, and hypotenuse
+height = float(input("Enter the height: "))
+base = float(input("Enter the base: "))
+hypotenuse = float(input("Enter the hypotenuse: "))
+
+# Check if it forms a right-angled triangle using the Pythagorean theorem
+is_right_triangle = hypotenuse**2 == height**2 + base**2
+
+# Print the result
+print("Is it a right-angled triangle:", is_right_triangle)
