@@ -1,0 +1,11 @@
+Program to take two numbers a and b fromm user and calculate c if square of b is equal to cube of a divide by c.
+
+# Take input from user for a and b
+a = float(input("Enter the value of a: "))
+b = float(input("Enter the value of b: "))
+
+# Calculate c
+c = (a ** 3) / (b ** 2)
+
+# Print the result
+print("The value of c is:", c)
