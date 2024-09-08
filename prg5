@@ -1,0 +1,15 @@
+Program to verify email ID and password:
+
+# Set the correct email and password
+correct_email = "python@gmail.com"
+correct_password = "python12345"
+
+# Take email and password as input from the user
+email = input("Enter your email: ")
+password = input("Enter your password: ")
+
+# Check if both the email and password are correct
+is_valid = (email == correct_email and password == correct_password)
+
+# Print the result
+print("Login successful:", is_valid)
